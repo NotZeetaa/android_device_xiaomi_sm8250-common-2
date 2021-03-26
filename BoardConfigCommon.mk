@@ -83,6 +83,8 @@ ifeq ($(TARGET_HAS_FOD),true)
 TARGET_USES_FOD_ZPOS := true
 endif
 
+BOARD_USES_GRALLOC_ION_SYNC := true
+
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
 
